@@ -1,31 +1,40 @@
-.navbar {
-    margin-bottom: 0;
-    border-bottom: 15px blue solid;
+.header {
+    background: url(mainpicture.jpg) no-repeat center;
+    height: 350px;
+    color: black;
+    text-align: center;
 }
-nav {
-	margin: 0;
-	padding: 0;
+.mainText {
+    padding-top: 5%;
 }
-.navbar-custom {
-    background-color:#2a6b05;
-    color:#ffffff;
-    border-radius:0;
+.mainInfo {
+    padding: 10px;
+    background-color: gray;
 }
 
-.navbar-custom .navbar-nav > li > a {
-    color:#fff;
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: green;
 }
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
 }
-.navbar-custom .navbar-brand {
-    color:#eeeeee;
+
+h1 {
+    margin: 0;
 }
-.active {
-	background-color: green;
+
+img {
+    border: 1px solid black;
 }
-.infoBox {
-    background: url(roboman.png);
-	height: 550px;
+.mentorInfo {
+    background-color: red;
+    border: 1px solid black;
+}
+.mentorInfo img {
+    height: 200px;
+    width: 125px;
+    float: left;
 }
