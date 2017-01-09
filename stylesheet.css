@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    font-family: "Roboto", Arial;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+.header {
+    background: url(mainpicture.jpg) no-repeat center;
+    height: 350px;
+    color: black;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    height: 200px;
+}
+
+.mainText {
+    padding-top: 5%;
+}
+.mainInfo {
+    padding: 10px;
+    background-color: gray;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+img {
+    border: 1px solid black;
+}
+.mentor {
+    margin: auto;
+}
+.mentorInfo {
+    margin-bottom: 10px;
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+}
+.mentorInfo img { /*create each image 240 x 175 for mentors*/
+    margin: 8px;
+    float: left;
+}
+.imgResponsive {
+    width: 100%;
+}
+.carousel {
+    margin: auto;
+    width: 80%;
+}
+
+.wrapper {
+    box-shadow: 0px 0px 2px #888888;
+}
+iframe {
+    text-align: center;
+}
+
+.footer ul {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footerActive {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.footer li {
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer li a{
+    color: white;
+}
+.sponsors h2 {
+    font-size: 20px;
+}
+.sponsors img {
+    border: 0px;
+    height: 150px;
+}
+iframe {
+    
+}
